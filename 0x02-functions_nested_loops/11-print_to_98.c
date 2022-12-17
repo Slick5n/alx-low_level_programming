@@ -1,13 +1,22 @@
+#include <stdio.h>
 #include "main.h"
 
 /**
- * print_to_98 - prints numbers from n to 98
+ * print_to_98 - prints numbers from input to 98
  * @n: starting number
  */
 void print_to_98(int n)
 {
-	for (int i = n; n <= 98; n++)
+	if (n >= 98)
 	{
-		_putchar(i'\n');
+		while (n > 98)
+			printf("%d, ", n--);
+		print("%d\n", n);
+	}
+	else
+	{
+		while (n < 98)
+			printf("%d, ", n++);
+		printf("%d\n", n);
 	}
 }
