@@ -11,7 +11,6 @@
 int main(void)
 {
 	char c;
-
 	int i;
 
 	srand(time(0));
@@ -22,7 +21,6 @@ int main(void)
 		i += c;
 		putchar (c);
 	}
-	putchar(277 - i);
-
+	putchar(2772 - i);
 	return (0);
 }
