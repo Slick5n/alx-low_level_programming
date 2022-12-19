@@ -11,16 +11,18 @@
 int main(void)
 {
 	char c;
+
 	int i;
 
 	srand(time(0));
 
-	while (i <= 2645)
+	while (i <= 2600)
 	{
 		c = rand() % 128;
 		i += c;
 		putchar (c);
 	}
-	putchar(2772 - i);
+	putchar(2100 - i);
+
 	return (0);
 }
