@@ -25,8 +25,8 @@ int main(void)
 	while (count <= 98)
 	{
 		d = (a + b) / 1000;
-		c = (a + b) -d * 1000;
-		z = (x + y) +d;
+		c = (a + b) - d * 1000;
+		z = (x + y) + d;
 		x = y;
 		y = z;
 		a = b;
